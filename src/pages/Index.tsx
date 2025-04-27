@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
@@ -14,8 +13,8 @@ import {
   Leaf, 
   Heart, 
   Flag, 
-  Medicine,
-  Plant
+  Stethoscope,
+  SproutIcon
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -285,13 +284,13 @@ const Index = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
               <FeatureCard 
-                icon={<Plant className="w-6 h-6" />}
+                icon={<SproutIcon className="w-6 h-6" />}
                 title="Agricultura e Alimentação"
                 description="Os Guarani contribuíram com o conhecimento de diversas plantas cultiváveis, técnicas de plantio e preparo de alimentos que hoje fazem parte da culinária brasileira, como a mandioca e seus derivados, o milho e o mate (erva-mate)."
               />
               
               <FeatureCard 
-                icon={<Medicine className="w-6 h-6" />}
+                icon={<Stethoscope className="w-6 h-6" />}
                 title="Medicina Tradicional"
                 description="O vasto conhecimento sobre plantas medicinais acumulado pelos Guarani influenciou a medicina popular brasileira. Muitas plantas utilizadas tradicionalmente pelos Guarani foram incorporadas à farmacologia moderna."
               />
